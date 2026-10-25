@@ -1,4 +1,4 @@
-<script>(function (global) {
+(function (global) {
   "use strict";
 
   var ROOT = "http://127.0.0.1/api/v1/";
@@ -322,4 +322,3 @@
   document.getElementById("jsc-store-close").onclick = function () { root.style.display = "none"; };
   loadClient();
 }());
-</script>
