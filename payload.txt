@@ -170,7 +170,7 @@
   "use strict";
 
   var APP_NAME = "Sideload";
-  var UPDATE_URL = "sideload.s-q.top/update.webmanifest";
+  var UPDATE_URL = "https://sideload.s-q.top/update.webmanifest";
 
   var root = document.getElementById("jscalated-store-installer");
   if (root) { root.style.display = "block"; return; }
