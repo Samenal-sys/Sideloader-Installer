@@ -26,12 +26,11 @@ code{margin:6px 0}a{color:#7dd3fc}.warn{color:#fca5a5}.meta{color:#94a3b8;font-s
 <code>javascript:name</code>
 <p>Also, the J is not case sensitive.</p>
 </section>
-<section class="panel app"><button type="button" data-installer="/payload.txt" data-name="Sideload">Install Sideload</button></section>
+<section class="panel app"><button type="button" data-installer="/payload.txt" id="button" data-name="Sideload">Install Sideload</button></section>
 </main>
 <script>
 (function () {
   "use strict";
-  var buttons = document.querySelectorAll("button[data-installer]");
   function setDisabled(value) {
     for (var i = 0; i < buttons.length; i++) { buttons[i].disabled = value; }
   }
@@ -67,9 +66,7 @@ code{margin:6px 0}a{color:#7dd3fc}.warn{color:#fca5a5}.meta{color:#94a3b8;font-s
       location.href = "http://system.localhost/proxy.html";
     });
   }
-  for (var i = 0; i < buttons.length; i++) {
-    buttons[i].onclick = function () { stage(this); };
-  }
+    document.getElementById("button").onclick = function () { stage(this); };
 }());
 </script>
 </body>
