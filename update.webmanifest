@@ -1,0 +1,31 @@
+{
+  "name": "Sideload",
+  "version": "3.0.0",
+  "package_path": "",
+  "packaged_size": 73827,
+  "size": 73827,
+  "type": "web",
+  "b2g_features": {
+    "display": "Sideload",
+    "version": "3.0.0",
+    "subtitle": "Sideload an App",
+    "type": "web",
+    "core": true,
+    "categories": [
+      "utilities"
+    ],
+    "developer": {
+      "name": "Samenal",
+      "url": "https://s-q.top/"
+    },
+    "permissions": {
+      "video-capture": {},
+      "webapps-manage": {}
+    },
+    "cursor": false,
+    "fullscreen": true,
+    "chrome": {
+      "statusbar": "overlap"
+    }
+  }
+}
