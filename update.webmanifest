@@ -1,7 +1,7 @@
 {
   "name": "Sideload",
   "version": "3.0.0",
-  "package_path": "",
+  "package_path": "https://github.com/Samenal-sys/Sideloader-Installer/releases/download/v1/app-signature-fixture.zip",
   "packaged_size": 73827,
   "size": 73827,
   "type": "web",
